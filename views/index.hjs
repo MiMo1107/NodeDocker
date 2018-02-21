@@ -1,0 +1,14 @@
+<html>
+<head>
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  {{>header}}
+  <ul>
+    {{#tweets}}
+    <li>{{person_id}}{{content}}</li>
+    {{/tweets}}
+  </ul>
+  <script src="/js/main.js"></script>
+</body>
+</html>

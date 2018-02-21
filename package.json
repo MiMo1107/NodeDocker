@@ -1,0 +1,21 @@
+{
+  "name": "Express",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "hjs": "^0.0.6",
+    "knex": "^0.14.4",
+    "pg": "^7.4.1",
+    "serve-favicon": "^2.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.15.0"
+  }
+}
