@@ -1,5 +1,5 @@
 FROM node:latest
 
-RUN npm install
+RUN yarn global add nodemon
 
 WORKDIR /usr/app
